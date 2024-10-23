@@ -27,7 +27,7 @@
   }
   
   .projects {
-    background-image: url('/public/images/suprasample.jpg');
+    background-image: url('/public/images/r32sample.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   }
   
   .contact {
-    background-image: url('/public/images/wallhaven-5wgr67.jpg');
+    background-image: url('/public/images/r32sample.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
   
   
   .sign-up {
-    background-image: url('/public/images/wallhaven-6q5jzq.jpg');
+    background-image: url('/public/images/r32sample.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

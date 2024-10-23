@@ -28,17 +28,17 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            NEUROSPARK
+            <img className="navbar-logo-img" src={`${process.env.PUBLIC_URL}/images/neurosparklogo.jpg`} alt="NeuroSpark Logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                 Services
