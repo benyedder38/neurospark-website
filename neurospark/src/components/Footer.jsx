@@ -8,22 +8,41 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Call us today for a quote and we will return your call within 30 minutes.
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          You can get a quote at any time.
         </p>
-        <div className='input-areas'>
+        {/* <div className='input-areas'>
           <form>
+            <input
+              className='footer-input'
+              name='name'
+              type='text'
+              placeholder='Your Name'
+            />
             <input
               className='footer-input'
               name='email'
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <input
+              className='footer-input'
+              name='mobile'
+              type='tel'
+              placeholder='Your Mobile Number'
+            />
+            <select className='footer-input' name='services'>
+              <option value='' disabled selected>Select Service</option>
+              <option value='1'>Security Cameras</option>
+              <option value='2'>Downlights</option>
+              <option value='3'>Wall outlets</option>
+              <option value='3'>Other</option>
+            </select>
+            <Button buttonStyle='btn--outline'>REQUEST CALLBACK</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
@@ -64,7 +83,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img className="navbar-logo-img" src={`${process.env.PUBLIC_URL}/images/neurosparklogo.jpg`} alt="NeuroSpark Logo" />
+            <img className="navbar-logo-img" src={`${process.env.PUBLIC_URL}/images/neurosparklogo-only.jpg`} alt="NeuroSpark Logo" />
             </Link>
           </div>
           <small class='website-rights'>NEUROSPARK ELECTRICAL SOLUTIONS PTY LTD© 2023</small>
