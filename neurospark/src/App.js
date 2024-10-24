@@ -10,7 +10,8 @@ import Home from './pages/Home';
 import Services from './pages/Services'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-import Signup from './pages/Signup'
+// import Signup from './pages/Signup'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/sign-up' element={<Signup />} />
+        {/* <Route path='/sign-up' element={<Signup />} /> */}
       </Routes>
+      <Footer />
      </Router>
     </>
   );

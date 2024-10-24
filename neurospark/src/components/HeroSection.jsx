@@ -8,8 +8,8 @@ function HeroSection() {
     <div>
       <div className="hero-container">
         {/* <video src="videos/video-1.mp4" autoplay loop muted  /> */}
-        <h1>ELECTRICAL SOLUTIONS</h1>
-        <p>Quality services guaranteed</p>
+        <h1>EFFICIENT ELECTRICAL SOLUTIONS</h1>
+        <p>Fast and reliable no nonsense</p>
         <div className="hero-btns">
           <Button
             className='btns'

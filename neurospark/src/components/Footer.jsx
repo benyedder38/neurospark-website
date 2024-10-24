@@ -64,11 +64,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+            <img className="navbar-logo-img" src={`${process.env.PUBLIC_URL}/images/neurosparklogo.jpg`} alt="NeuroSpark Logo" />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>NEUROSPARK ELECTRICAL SOLUTIONS PTY LTD© 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -78,14 +77,15 @@ function Footer() {
             >
               <i class='fab fa-facebook-f' />
             </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
+            <a 
+              href="https://www.instagram.com/neurospark_electrical" 
+              class='social-icon-link instagram' 
+              aria-label='Instagram' 
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <i class='fab fa-instagram' />
-            </Link>
+            </a>
             <Link
               class='social-icon-link youtube'
               to='/'

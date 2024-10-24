@@ -44,6 +44,7 @@ function Cards() {
               />
             </ul>
           </div>
+          {/* add another card container displaying important services informations, FAQ and pricing */}
         </div>
       </div>
     </>
