@@ -9,6 +9,7 @@ import './App.css';
 import Home from './pages/Home';
 import Services from './pages/Services'
 import Projects from './pages/Projects'
+import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
 // import Signup from './pages/Signup'
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/faq' element={<FAQ />} />
         <Route path='/contact' element={<Contact />} />
         {/* <Route path='/sign-up' element={<Signup />} /> */}
       </Routes>

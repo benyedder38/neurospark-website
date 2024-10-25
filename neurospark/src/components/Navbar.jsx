@@ -41,6 +41,11 @@ function NavBar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>
+                About Us
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                 Services
               </Link>
@@ -48,6 +53,21 @@ function NavBar() {
             <li className='nav-item'>
               <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                 Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/pricing' className='nav-links' onClick={closeMobileMenu}>
+                Pricing
+              </Link>
+            </li>
+            {/* <li className='nav-item'>
+              <Link to='/testimonials' className='nav-links' onClick={closeMobileMenu}>
+                Testimonials
+              </Link>
+            </li> */}
+            <li className='nav-item'>
+              <Link to='/FAQ' className='nav-links' onClick={closeMobileMenu}>
+                FAQ
               </Link>
             </li>
             {/* <li className='nav-item'>

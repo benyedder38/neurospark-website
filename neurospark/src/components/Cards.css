@@ -3,10 +3,23 @@
     background: #fff;
   }
 
-  #services-card {
-    background-color: #000;
-    /* background: linear-gradient(180deg, rgba(194,173,111,1) 0%, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 99%, rgba(194,173,111,1) 100%); */
+  #info-card {
+    /* background-color: #000; */
+    /* background-color: rgba(194,173,111,1); */
+    background: linear-gradient(180deg, rgba(194,173,111,1) 0%, rgba(0,0,0,1) 0.2%, rgba(0,0,0,1) 100%, rgba(194,173,111,1) 100%);
     color: #fff;
+  }
+  #services-card {
+    /* background-color: #000; */
+    /* background: linear-gradient(180deg, rgba(194,173,111,1) 0%, rgba(0,0,0,1) 0.2%, rgba(0,0,0,1) 99.8%, rgba(194,173,111,1) 100%); */
+    background-color: rgba(194,173,111,1);
+    /* color: #fff; */
+  }
+  #projects-card {
+    /* background-color: #000; */
+    /* background-color: rgba(194,173,111,1); */
+    /* background: linear-gradient(180deg, rgba(194,173,111,1) 0%, rgba(0,0,0,1) 0.2%, rgba(0,0,0,1) 99.8%, rgba(194,173,111,1) 100%); */
+    /* color: #fff; */
   }
   
   h1 {

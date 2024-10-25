@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -86,7 +86,7 @@ function Footer() {
             <img className="navbar-logo-img" src={`${process.env.PUBLIC_URL}/images/neurosparklogo-only.jpg`} alt="NeuroSpark Logo" />
             </Link>
           </div>
-          <small class='website-rights'>NEUROSPARK ELECTRICAL SOLUTIONS PTY LTD© 2023</small>
+          <small class='website-rights'>NEUROSPARK ELECTRICAL SOLUTIONS PTY LTD © 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

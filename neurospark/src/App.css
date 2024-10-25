@@ -8,6 +8,7 @@
   .home,
   .services,
   .projects,
+  .faq,
   .contact,
   .sign-up {
     display: flex;
@@ -27,6 +28,15 @@
   }
   
   .projects {
+    background-image: url('/public/images/r32sample.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .faq {
     background-image: url('/public/images/r32sample.jpg');
     background-position: center;
     background-size: cover;
